@@ -1,0 +1,6 @@
+@edwardFirstAlxProject_HostAddress = http://localhost:5216
+
+GET {{edwardFirstAlxProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
