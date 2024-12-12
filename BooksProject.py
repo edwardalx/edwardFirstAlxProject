@@ -5,5 +5,3 @@ if desired_book in book_stack:
     print("book found")
 else: 
     print("book not found")
-
-    1+1
