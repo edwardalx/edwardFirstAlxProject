@@ -28,11 +28,23 @@ print(d)
 #Data Conversion
 newList = list(mySetB)
 newListB = tuple(mySetB)
+newListC = list(newListB)
 print(newListB)
-
+print(newListC)
+newListD = mySetA.add(4444)
+print(mySetA)
 #Dictionary
 myDict = {"k1":"v1","k2":"v2","k3":"v3","k4":"v4"}
 #print(myDict["k1"])
 #print(myDict)
 myDict["k3"],myDict["k1"]= "Edward",5
 print(myDict)
+
+myDict2 = dict([("k1", "v1"), ("k2","v2")])
+print(myDict2)
+
+myDict3 = dict(k1="v1",k2="v2",k3="v3",k4="v4")
+print(myDict3)
+
+myDict3["k5"], myDict3["k6"] = "Ed", "edward"
+print(myDict3)
