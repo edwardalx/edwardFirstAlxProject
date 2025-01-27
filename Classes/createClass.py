@@ -27,17 +27,17 @@ myAnimalFood = Food("food",  20)
 print(myAnimal.name,myAnimal.ageDecade(myAnimal.age), myAnimalOrigin.orgCountry("Kenya"), myAnimalFood.favFood("Pawpaw"))
 
 
-class Country(Animals):
+# class Country(Animals):
 
-    def ageDecade(self, x):                                                  
-        return f"They are mainly found in  {x}"
+#     def ageDecade(self, x):                                                  
+#         return f"They are mainly found in  {x}"
     
 
-class Food(Animals):
-    def ageDecade(self, x):
-        return f"They're favourite food is {x}"
-tryLoop = [
-    Country("country", 20),  Food("food",  20)
-]
-for item in tryLoop:                                                                                 # Polymorhism
-    print( item.ageDecade("Edwrad"))
+# class Food(Animals):
+#     def ageDecade(self, x):
+#         return f"They're favourite food is {x}"
+# tryLoop = [
+#     Country("country", 20),  Food("food",  20)
+# ]
+# for item in tryLoop:                                                                                 # Polymorhism
+#     print( item.ageDecade("Edwrad"))
