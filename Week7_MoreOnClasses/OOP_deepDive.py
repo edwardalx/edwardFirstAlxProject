@@ -12,7 +12,7 @@ class Point:
         return f"x-cordinate: {self.x}, y-cordinate: {self.y}"
     
     def mydiv(self):
-        return
+        return 
     
 
 # pointA = Point(1,10)
