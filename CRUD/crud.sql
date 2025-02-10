@@ -62,12 +62,12 @@ ALTER TABLE residents_payment
 DROP customer_id
 
 
-INSERT INTO residents_payment(rent_start_date, duration)
+INSERT INTO residents_payment (rent_start_date, duration)
 VALUES
 ('2024-09-23', 1),
 ('2023-08-05', 3),
 ('2025-07-21', 2),
-('2023-04-03', 1)
+('2023-04-03', 1);
 
 SELECT * FROM edward_hostels.residents;
 
